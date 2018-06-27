@@ -1,5 +1,7 @@
 # React Markdown Preview
 
+![Screenshot](/React-Markdown-Preview/markdown-lg.png)
+
 React app that uses the Marked library to parse markdown and display the result.
 
 ## Getting Started
