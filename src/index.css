@@ -1,0 +1,11 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: url("./leaves.png");
+  background-repeat: repeat;
+  padding-top: 5rem;
+}
