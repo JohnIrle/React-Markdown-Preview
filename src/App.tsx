@@ -5,7 +5,9 @@ import { Row, Col, Container, Jumbotron } from "react-bootstrap";
 import marked from "marked";
 
 const App = () => {
-  const [state, setState] = useState("# Try me \n ## I work");
+  const [state, setState] = useState(`# Try me \n ## I work \n
+  - lists \n - are \n - nice \n\n **Bold** \n\n *italic*\n
+ | one   | two   | three |\n |-------|-------|-------|\n | value  | value  | value  | \n `);
 
   const onChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
     setState(event.target.value);
