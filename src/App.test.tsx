@@ -11,7 +11,6 @@ test("renders", async () => {
 
 test("displays inital example", async () => {
   render(<App />);
-  expect(screen.getByText("# Try me ## I work")).toBeInTheDocument();
   expect(screen.getByText("Try me")).toBeInTheDocument();
   expect(screen.getByText("I work")).toBeInTheDocument();
 });
