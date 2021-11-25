@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import NavBar from "./components/NavBar";
 import { Row, Col, Container, Jumbotron } from "react-bootstrap";
-import marked from "marked";
+import { Preview } from "./components/Preview";
 
 const App = () => {
   const [state, setState] = useState(`# Try me \n ## I work \n
@@ -29,16 +29,7 @@ const App = () => {
           </Col>
           <Col md={6}>
             <h1>Preview</h1>
-            <div
-              style={{
-                border: "1px solid black",
-                height: "100%",
-                padding: "1rem",
-              }}
-              dangerouslySetInnerHTML={{
-                __html: marked(state),
-              }}
-            />
+            <Preview state={state} />
           </Col>
         </Row>
       </Jumbotron>
