@@ -36,7 +36,7 @@ Object {
           
 
           <li>
-            nice 
+            nice
           </li>
           
 
@@ -112,21 +112,6 @@ Object {
             </tr>
             
 
-            <tr>
-              
-
-              <td />
-              
-
-              <td />
-              
-
-              <td />
-              
-
-            </tr>
-            
-
           </tbody>
         </table>
         
@@ -166,7 +151,7 @@ Object {
         
 
         <li>
-          nice 
+          nice
         </li>
         
 
@@ -237,21 +222,6 @@ Object {
             <td>
               value
             </td>
-            
-
-          </tr>
-          
-
-          <tr>
-            
-
-            <td />
-            
-
-            <td />
-            
-
-            <td />
             
 
           </tr>
