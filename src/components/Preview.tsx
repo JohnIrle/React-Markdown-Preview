@@ -1,4 +1,4 @@
-import marked from "marked";
+import { marked } from "marked";
 
 interface PreviewProps {
   state: string;
@@ -13,7 +13,7 @@ export const Preview = ({ state }: PreviewProps) => {
         padding: "1rem",
       }}
       dangerouslySetInnerHTML={{
-        __html: marked(state),
+        __html: marked.parse(state),
       }}
     />
   );
