@@ -1,318 +1,118 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Preview component renders html 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <div
-        style="border: 1px solid black; height: 100%; padding: 1rem;"
-      >
-        <h1
-          id="try-me"
-        >
-          Try me
-        </h1>
-        
-
-        <h2
-          id="i-work"
-        >
-          I work
-        </h2>
-        
-
-        <ul>
-          
-
-          <li>
-            lists 
-          </li>
-          
-
-          <li>
-            are 
-          </li>
-          
-
-          <li>
-            nice 
-          </li>
-          
-
-        </ul>
-        
-
-        <p>
-           
-          <strong>
-            Bold
-          </strong>
-           
-        </p>
-        
-
-        <p>
-           
-          <em>
-            italic
-          </em>
-        </p>
-        
-
-        <table>
-          
-
-          <thead>
-            
-
-            <tr>
-              
-
-              <th>
-                one
-              </th>
-              
-
-              <th>
-                two
-              </th>
-              
-
-              <th>
-                three
-              </th>
-              
-
-            </tr>
-            
-
-          </thead>
-          
-
-          <tbody>
-            <tr>
-              
-
-              <td>
-                value
-              </td>
-              
-
-              <td>
-                value
-              </td>
-              
-
-              <td>
-                value
-              </td>
-              
-
-            </tr>
-            
-
-            <tr>
-              
-
-              <td />
-              
-
-              <td />
-              
-
-              <td />
-              
-
-            </tr>
-            
-
-          </tbody>
-        </table>
-        
-
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      style="border: 1px solid black; height: 100%; padding: 1rem;"
+<div>
+  <div
+    style="border: 1px solid black; height: 100%; padding: 1rem;"
+  >
+    <h1
+      id="try-me"
     >
-      <h1
-        id="try-me"
-      >
-        Try me
-      </h1>
+      Try me
+    </h1>
+    
+
+    <h2
+      id="i-work"
+    >
+      I work
+    </h2>
+    
+
+    <ul>
       
 
-      <h2
-        id="i-work"
-      >
-        I work
-      </h2>
+      <li>
+        lists 
+      </li>
       
 
-      <ul>
-        
-
-        <li>
-          lists 
-        </li>
-        
-
-        <li>
-          are 
-        </li>
-        
-
-        <li>
-          nice 
-        </li>
-        
-
-      </ul>
+      <li>
+        are 
+      </li>
       
 
-      <p>
-         
-        <strong>
-          Bold
-        </strong>
-         
-      </p>
+      <li>
+        nice
+      </li>
       
 
-      <p>
-         
-        <em>
-          italic
-        </em>
-      </p>
+    </ul>
+    
+
+    <p>
+       
+      <strong>
+        Bold
+      </strong>
+       
+    </p>
+    
+
+    <p>
+       
+      <em>
+        italic
+      </em>
+    </p>
+    
+
+    <table>
       
 
-      <table>
+      <thead>
         
 
-        <thead>
+        <tr>
           
 
-          <tr>
-            
-
-            <th>
-              one
-            </th>
-            
-
-            <th>
-              two
-            </th>
-            
-
-            <th>
-              three
-            </th>
-            
-
-          </tr>
+          <th>
+            one
+          </th>
           
 
-        </thead>
+          <th>
+            two
+          </th>
+          
+
+          <th>
+            three
+          </th>
+          
+
+        </tr>
         
 
-        <tbody>
-          <tr>
-            
-
-            <td>
-              value
-            </td>
-            
-
-            <td>
-              value
-            </td>
-            
-
-            <td>
-              value
-            </td>
-            
-
-          </tr>
-          
-
-          <tr>
-            
-
-            <td />
-            
-
-            <td />
-            
-
-            <td />
-            
-
-          </tr>
-          
-
-        </tbody>
-      </table>
+      </thead>
       
 
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
+      <tbody>
+        <tr>
+          
+
+          <td>
+            value
+          </td>
+          
+
+          <td>
+            value
+          </td>
+          
+
+          <td>
+            value
+          </td>
+          
+
+        </tr>
+        
+
+      </tbody>
+    </table>
+    
+
+  </div>
+</div>
 `;

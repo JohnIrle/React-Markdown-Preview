@@ -1,4 +1,5 @@
-import marked from "marked";
+import { marked } from "marked";
+import * as DOMPurify from "dompurify";
 
 interface PreviewProps {
   state: string;
@@ -13,7 +14,7 @@ export const Preview = ({ state }: PreviewProps) => {
         padding: "1rem",
       }}
       dangerouslySetInnerHTML={{
-        __html: marked(state),
+        __html: DOMPurify.sanitize(marked.parse(state)),
       }}
     />
   );

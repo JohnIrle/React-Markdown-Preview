@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import NavBar from "./components/NavBar";
-import { Row, Col, Container, Jumbotron } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import { Preview } from "./components/Preview";
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
   return (
     <Container>
       <NavBar />
-      <Jumbotron style={{ paddingTop: "1rem" }}>
+      <div style={{ paddingTop: "1rem" }}>
         <Row style={{ paddingBottom: "1rem" }}>
           <Col md={6}>
             <h1>Markdown</h1>
@@ -32,7 +32,7 @@ const App = () => {
             <Preview state={state} />
           </Col>
         </Row>
-      </Jumbotron>
+      </div>
     </Container>
   );
 };
