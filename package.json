@@ -47,7 +47,6 @@
   },
   "devDependencies": {
     "@types/dompurify": "^2.4.0",
-    "@types/marked": "^4.0.8",
-    "webpack": "^4.44.2"
+    "@types/marked": "^4.0.8"
   }
 }
