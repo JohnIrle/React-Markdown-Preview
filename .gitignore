@@ -1,2 +1,7 @@
+# SPDX-FileCopyrightText: 2021 John Irle
+#
+# SPDX-License-Identifier: MIT
+
 /node_modules/
 **/.DS_Store
+.idea

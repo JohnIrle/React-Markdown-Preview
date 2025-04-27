@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 John Irle
+//
+// SPDX-License-Identifier: MIT
+
 import React, { useState } from "react";
 
 import NavBar from "./components/NavBar";

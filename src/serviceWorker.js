@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 John Irle
+//
+// SPDX-License-Identifier: MIT
+
 // This optional code is used to register a service worker.
 // register() is not called by default.
 

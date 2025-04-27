@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2021 John Irle
+
+SPDX-License-Identifier: MIT
+-->
+
 # React Markdown Preview
 
 [![Actions Status](https://github.com/JohnIrle/React-Markdown-Preview/workflows/Tests/badge.svg)](https://github.com/JohnIrle/React-Markdown-Preview/actions)

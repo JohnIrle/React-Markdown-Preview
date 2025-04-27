@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 John Irle
+//
+// SPDX-License-Identifier: MIT
+
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import { Preview } from "../Preview";
